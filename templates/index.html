@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Campaigner - RFM Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛍️ Smart Campaigner</h1>
+            <p class="subtitle">RFM-Based Customer Segmentation & Email Campaign Management</p>
+            <p class="subtitle" style="font-size: 0.9rem; opacity: 0.8; margin-top: 5px;">Analyze, Segment, and Target Your Customers</p>
+        </header>
+
+        <div class="upload-section">
+            <div class="upload-box" id="uploadBox">
+                <input type="file" id="fileInput" accept=".csv" style="display: none;">
+                <div class="upload-content">
+                    <svg class="upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 50px; height: 50px;">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                    <h3 style="font-size: 1.2rem; margin: 10px 0;">Upload Transaction CSV</h3>
+                    <p style="font-size: 0.9rem;">Click to select your customer transaction file</p>
+                    <button class="btn-upload" onclick="document.getElementById('fileInput').click()" style="margin-top: 15px;">Select File</button>
+                    <p class="file-name" id="fileName"></p>
+                </div>
+            </div>
+            
+            <button class="btn-analyze" id="analyzeBtn" disabled>Analyze Data</button>
+        </div>
+
+        <div class="loading" id="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Analyzing customer data...</p>
+        </div>
+
+        <div class="results" id="results" style="display: none;">
+            <h2>Analysis Results</h2>
+            
+            <div class="summary-cards">
+                <div class="card">
+                    <div class="card-icon">👥</div>
+                    <div class="card-content">
+                        <h3 id="totalCustomers">0</h3>
+                        <p>Total Customers</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📊</div>
+                    <div class="card-content">
+                        <h3 id="totalSegments">0</h3>
+                        <p>Customer Segments</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💰</div>
+                    <div class="card-content">
+                        <h3 id="avgSpending">0</h3>
+                        <p>Avg Spending (BDT)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chart-section">
+                <h3>Customer Segmentation</h3>
+                <canvas id="segmentChart"></canvas>
+            </div>
+
+            <div class="segments">
+                <h3>Customer Segments</h3>
+                <div class="segments-grid" id="segmentsGrid"></div>
+            </div>
+
+            <div class="table-section">
+                <h3>Detailed Customer Data</h3>
+                <div class="table-controls">
+                    <input type="text" id="searchInput" placeholder="Search customers...">
+                    <select id="filterSelect">
+                        <option value="all">All Segments</option>
+                        <option value="Platinum">Platinum</option>
+                        <option value="Gold">Gold</option>
+                        <option value="Silver">Silver</option>
+                        <option value="Bronze">Bronze</option>
+                    </select>
+                </div>
+                <div class="table-container">
+                    <table id="dataTable">
+                        <thead>
+                            <tr>
+                                <th>Customer ID</th>
+                                <th>Location</th>
+                                <th>Phone</th>
+                                <th>Email</th>
+                                <th>Group</th>
+                                <th>Recency</th>
+                                <th>Frequency</th>
+                                <th>Monetary</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="campaign-section">
+                <h3>📧 Campaign Management</h3>
+                <div class="campaign-grid" id="campaignGrid">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <div class="download-section">
+                <h3>Download Segment Data</h3>
+                <div class="download-buttons">
+                    <button class="btn-download" onclick="downloadSegment('Platinum')">📥 Download Platinum</button>
+                    <button class="btn-download" onclick="downloadSegment('Gold')">📥 Download Gold</button>
+                    <button class="btn-download" onclick="downloadSegment('Silver')">📥 Download Silver</button>
+                    <button class="btn-download" onclick="downloadSegment('Bronze')">📥 Download Bronze</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Offer Editor Modal -->
+        <div id="offerModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Edit Campaign Offer</h2>
+                <div class="modal-form">
+                    <label for="segmentName">Segment:</label>
+                    <input type="text" id="segmentName" readonly>
+                    
+                    <label for="offerSubject">Email Subject:</label>
+                    <input type="text" id="offerSubject" placeholder="Enter email subject...">
+                    
+                    <label for="offerMessage">Email Message:</label>
+                    <textarea id="offerMessage" rows="5" placeholder="Enter email message..."></textarea>
+                    
+                    <button class="btn-upload" onclick="saveOffer()">Save Offer</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Email Sending Modal -->
+        <div id="emailModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Send Campaign Emails</h2>
+                <div id="emailStatus">
+                    <p>Preparing to send emails...</p>
+                    <div class="progress-bar">
+                        <div class="progress" id="emailProgress"></div>
+                    </div>
+                    <p id="emailResult"></p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2024 Smart Campaigner - RFM Analysis Tool</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+

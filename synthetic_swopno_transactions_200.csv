@@ -1,0 +1,201 @@
+InvoiceNo,CustomerID,CustomerPhoneNo,Description,Quantity,InvoiceDate,UnitPrice,TotalPrice,Location,Email
+INV10000,CUST1096,8.80E+12,Biscuits 200g,7,6/30/2024,208.15,1457.05,Mirpur,dummy@gmail.com
+INV10001,CUST1095,8.80E+12,Biscuits 200g,4,2/26/2025,442.23,1768.92,Mohammadpur,dummy@gmail.com
+INV10002,CUST1070,8.80E+12,Biscuits 200g,8,1/26/2024,180.49,1443.92,Gulshan,dummy@gmail.com
+INV10003,CUST1078,8.80E+12,Cooking Oil 1L,5,7/2/2024,1113.4,5567,Banani,dummy@gmail.com
+INV10004,CUST1029,8.80E+12,Sugar 1kg,7,12/6/2024,1058.94,7412.58,Dhanmondi,dummy@gmail.com
+INV10005,CUST1063,8.80E+12,Toothpaste 100ml,3,2/25/2025,346.63,1039.89,Uttara,dummy@gmail.com
+INV10006,CUST1029,8.80E+12,Soap 75g,7,9/11/2024,808.98,5662.86,Bashundhara,dummy@gmail.com
+INV10007,CUST1035,8.80E+12,Biscuits 200g,8,9/30/2024,989.81,7918.48,Tejgaon,dummy@gmail.com
+INV10008,CUST1056,8.80E+12,Salt 1kg,5,6/12/2024,688.48,3442.4,Motijheel,dummy@gmail.com
+INV10009,CUST1063,8.80E+12,Shampoo 200ml,4,4/20/2024,659.1,2636.4,Farmgate,dummy@gmail.com
+INV10010,CUST1004,8.80E+12,Shampoo 200ml,8,1/26/2025,328.13,2625.04,Mirpur,khalid35-877@diu.edu.bd
+INV10011,CUST1050,8.80E+12,Cooking Oil 1L,8,2/9/2024,157.07,1256.56,Mohammadpur,dummy@gmail.com
+INV10012,CUST1044,8.80E+12,Rice 5kg Bag,3,4/26/2025,1081.8,3245.4,Gulshan,dummy@gmail.com
+INV10013,CUST1086,8.80E+12,Tea Pack 250g,6,8/15/2024,1085.48,6512.88,Banani,dummy@gmail.com
+INV10014,CUST1087,8.80E+12,Salt 1kg,5,7/23/2024,778.07,3890.35,Dhanmondi,dummy@gmail.com
+INV10015,CUST1052,8.80E+12,Biscuits 200g,2,4/16/2025,439.88,879.76,Uttara,dummy@gmail.com
+INV10016,CUST1093,8.80E+12,Cooking Oil 1L,8,12/24/2024,451.59,3612.72,Bashundhara,dummy@gmail.com
+INV10017,CUST1022,8.80E+12,Toothpaste 100ml,6,11/8/2024,884.85,5309.1,Tejgaon,dummy@gmail.com
+INV10018,CUST1060,8.80E+12,Milk Powder 500g,2,8/21/2024,1081.68,2163.36,Motijheel,dummy@gmail.com
+INV10019,CUST1017,8.80E+12,Biscuits 200g,5,8/16/2024,1070.15,5350.75,Farmgate,dummy@gmail.com
+INV10020,CUST1080,8.80E+12,Toothpaste 100ml,1,1/25/2024,946.86,946.86,Mirpur,dummy@gmail.com
+INV10021,CUST1069,8.80E+12,Cooking Oil 1L,6,7/16/2024,788.34,4730.04,Mohammadpur,dummy@gmail.com
+INV10022,CUST1004,8.80E+12,Milk Powder 500g,9,2/12/2025,146.76,1320.84,Gulshan,dummy@gmail.com
+INV10023,CUST1051,8.80E+12,Biscuits 200g,1,12/2/2024,235.87,235.87,Banani,dummy@gmail.com
+INV10024,CUST1076,8.80E+12,Biscuits 200g,3,10/12/2024,1083.34,3250.02,Dhanmondi,dummy@gmail.com
+INV10025,CUST1073,8.80E+12,Tea Pack 250g,7,3/12/2024,747.39,5231.73,Uttara,dummy@gmail.com
+INV10026,CUST1085,8.80E+12,Milk Powder 500g,4,10/12/2024,60.58,242.32,Bashundhara,dummy@gmail.com
+INV10027,CUST1004,8.80E+12,Tea Pack 250g,9,12/25/2024,166.69,1500.21,Tejgaon,dummy@gmail.com
+INV10028,CUST1011,8.80E+12,Soap 75g,3,10/18/2025,813.03,2439.09,Motijheel,dummy@gmail.com
+INV10029,CUST1083,8.80E+12,Milk Powder 500g,5,6/5/2025,55.82,279.1,Farmgate,dummy@gmail.com
+INV10030,CUST1055,8.80E+12,Soap 75g,3,2/13/2025,234.93,704.79,Mirpur,dummy@gmail.com
+INV10031,CUST1018,8.80E+12,Salt 1kg,7,7/3/2025,681.04,4767.28,Mohammadpur,dummy@gmail.com
+INV10032,CUST1060,8.80E+12,Sugar 1kg,5,12/5/2024,845.68,4228.4,Gulshan,dummy@gmail.com
+INV10033,CUST1024,8.80E+12,Shampoo 200ml,9,1/29/2024,799.76,7197.84,Banani,dummy@gmail.com
+INV10034,CUST1007,8.80E+12,Rice 5kg Bag,7,4/28/2024,307.91,2155.37,Dhanmondi,khalid35-877@diu.edu.bd
+INV10035,CUST1034,8.80E+12,Rice 5kg Bag,2,9/24/2024,869.01,1738.02,Uttara,dummy@gmail.com
+INV10036,CUST1049,8.80E+12,Cooking Oil 1L,4,7/1/2024,322.84,1291.36,Bashundhara,dummy@gmail.com
+INV10037,CUST1042,8.80E+12,Cooking Oil 1L,9,8/17/2025,424.21,3817.89,Tejgaon,dummy@gmail.com
+INV10038,CUST1028,8.80E+12,Rice 5kg Bag,2,9/28/2024,908.47,1816.94,Motijheel,dummy@gmail.com
+INV10039,CUST1059,8.80E+12,Tea Pack 250g,9,2/9/2024,797.08,7173.72,Farmgate,dummy@gmail.com
+INV10040,CUST1042,8.80E+12,Rice 5kg Bag,5,4/21/2024,1026.61,5133.05,Mirpur,dummy@gmail.com
+INV10041,CUST1044,8.80E+12,Rice 5kg Bag,2,9/2/2025,806.25,1612.5,Mohammadpur,dummy@gmail.com
+INV10042,CUST1098,8.80E+12,Rice 5kg Bag,4,3/20/2025,703.55,2814.2,Gulshan,dummy@gmail.com
+INV10043,CUST1049,8.80E+12,Soap 75g,7,12/19/2024,157.73,1104.11,Banani,dummy@gmail.com
+INV10044,CUST1036,8.80E+12,Cooking Oil 1L,8,11/17/2024,472.87,3782.96,Dhanmondi,dummy@gmail.com
+INV10045,CUST1097,8.80E+12,Shampoo 200ml,3,3/22/2025,354.98,1064.94,Uttara,dummy@gmail.com
+INV10046,CUST1054,8.80E+12,Sugar 1kg,1,9/12/2025,330.59,330.59,Bashundhara,dummy@gmail.com
+INV10047,CUST1033,8.80E+12,Cooking Oil 1L,4,6/7/2025,1168.96,4675.84,Tejgaon,dummy@gmail.com
+INV10048,CUST1011,8.80E+12,Tea Pack 250g,2,4/28/2024,502.06,1004.12,Motijheel,dummy@gmail.com
+INV10049,CUST1061,8.80E+12,Salt 1kg,8,1/29/2025,1075.85,8606.8,Farmgate,dummy@gmail.com
+INV10050,CUST1003,8.80E+12,Cooking Oil 1L,4,8/13/2025,775.81,3103.24,Mirpur,khalid35-877@diu.edu.bd
+INV10051,CUST1096,8.80E+12,Shampoo 200ml,2,7/13/2024,964.03,1928.06,Mohammadpur,dummy@gmail.com
+INV10052,CUST1070,8.80E+12,Sugar 1kg,6,9/17/2024,628.03,3768.18,Gulshan,dummy@gmail.com
+INV10053,CUST1007,8.80E+12,Sugar 1kg,6,2/15/2024,713.44,4280.64,Banani,dummy@gmail.com
+INV10054,CUST1045,8.80E+12,Rice 5kg Bag,4,3/22/2025,616.4,2465.6,Dhanmondi,dummy@gmail.com
+INV10055,CUST1029,8.80E+12,Milk Powder 500g,6,1/2/2024,274.53,1647.18,Uttara,dummy@gmail.com
+INV10056,CUST1084,8.80E+12,Soap 75g,2,6/16/2025,880.82,1761.64,Bashundhara,dummy@gmail.com
+INV10057,CUST1009,8.80E+12,Sugar 1kg,2,7/5/2025,372.89,745.78,Tejgaon,dummy@gmail.com
+INV10058,CUST1100,8.80E+12,Salt 1kg,4,7/20/2024,77.96,311.84,Motijheel,dummy@gmail.com
+INV10059,CUST1084,8.80E+12,Rice 5kg Bag,8,1/7/2025,792.29,6338.32,Farmgate,dummy@gmail.com
+INV10060,CUST1006,8.80E+12,Milk Powder 500g,7,3/17/2025,253.68,1775.76,Mirpur,dummy@gmail.com
+INV10061,CUST1097,8.80E+12,Milk Powder 500g,9,3/12/2024,1131.53,10183.77,Mohammadpur,dummy@gmail.com
+INV10062,CUST1004,8.80E+12,Rice 5kg Bag,8,12/4/2024,1147.02,9176.16,Gulshan,dummy@gmail.com
+INV10063,CUST1032,8.80E+12,Tea Pack 250g,5,9/30/2025,1102.09,5510.45,Banani,dummy@gmail.com
+INV10064,CUST1026,8.80E+12,Salt 1kg,2,11/17/2024,475.68,951.36,Dhanmondi,dummy@gmail.com
+INV10065,CUST1003,8.80E+12,Toothpaste 100ml,5,5/7/2024,67.78,338.9,Uttara,dummy@gmail.com
+INV10066,CUST1080,8.80E+12,Toothpaste 100ml,8,11/3/2024,1117.57,8940.56,Bashundhara,dummy@gmail.com
+INV10067,CUST1020,8.80E+12,Cooking Oil 1L,9,6/3/2025,542.41,4881.69,Tejgaon,dummy@gmail.com
+INV10068,CUST1031,8.80E+12,Toothpaste 100ml,9,11/12/2024,1161.65,10454.85,Motijheel,dummy@gmail.com
+INV10069,CUST1017,8.80E+12,Toothpaste 100ml,1,2/22/2025,1158.16,1158.16,Farmgate,dummy@gmail.com
+INV10070,CUST1061,8.80E+12,Sugar 1kg,9,11/30/2024,1030.96,9278.64,Mirpur,dummy@gmail.com
+INV10071,CUST1086,8.80E+12,Salt 1kg,7,2/16/2025,388.62,2720.34,Mohammadpur,dummy@gmail.com
+INV10072,CUST1015,8.80E+12,Rice 5kg Bag,9,10/29/2024,492.86,4435.74,Gulshan,dummy@gmail.com
+INV10073,CUST1073,8.80E+12,Salt 1kg,8,7/21/2025,1028.81,8230.48,Banani,dummy@gmail.com
+INV10074,CUST1028,8.80E+12,Salt 1kg,1,5/10/2024,414.46,414.46,Dhanmondi,dummy@gmail.com
+INV10075,CUST1060,8.80E+12,Rice 5kg Bag,8,7/15/2024,244.92,1959.36,Uttara,dummy@gmail.com
+INV10076,CUST1090,8.80E+12,Milk Powder 500g,8,3/6/2025,690.32,5522.56,Bashundhara,dummy@gmail.com
+INV10077,CUST1033,8.80E+12,Cooking Oil 1L,3,1/23/2025,1126.58,3379.74,Tejgaon,dummy@gmail.com
+INV10078,CUST1099,8.80E+12,Rice 5kg Bag,1,6/27/2024,850.43,850.43,Motijheel,dummy@gmail.com
+INV10079,CUST1048,8.80E+12,Rice 5kg Bag,8,9/22/2025,705.57,5644.56,Farmgate,dummy@gmail.com
+INV10080,CUST1022,8.80E+12,Tea Pack 250g,3,8/5/2025,161.75,485.25,Mirpur,dummy@gmail.com
+INV10081,CUST1078,8.80E+12,Shampoo 200ml,3,11/4/2024,757.26,2271.78,Mohammadpur,dummy@gmail.com
+INV10082,CUST1078,8.80E+12,Sugar 1kg,1,2/19/2025,1188.56,1188.56,Gulshan,dummy@gmail.com
+INV10083,CUST1096,8.80E+12,Sugar 1kg,5,7/15/2025,211.1,1055.5,Banani,dummy@gmail.com
+INV10084,CUST1092,8.80E+12,Salt 1kg,7,1/1/2024,646.08,4522.56,Dhanmondi,dummy@gmail.com
+INV10085,CUST1015,8.80E+12,Biscuits 200g,9,11/7/2024,1058.98,9530.82,Uttara,dummy@gmail.com
+INV10086,CUST1100,8.80E+12,Toothpaste 100ml,7,10/20/2024,901.88,6313.16,Bashundhara,dummy@gmail.com
+INV10087,CUST1021,8.80E+12,Rice 5kg Bag,9,8/3/2024,851.57,7664.13,Tejgaon,dummy@gmail.com
+INV10088,CUST1040,8.80E+12,Soap 75g,8,3/16/2025,857.86,6862.88,Motijheel,dummy@gmail.com
+INV10089,CUST1014,8.80E+12,Biscuits 200g,2,8/16/2025,463.41,926.82,Farmgate,dummy@gmail.com
+INV10090,CUST1075,8.80E+12,Tea Pack 250g,1,9/13/2025,387.63,387.63,Mirpur,dummy@gmail.com
+INV10091,CUST1004,8.80E+12,Shampoo 200ml,7,11/25/2024,980.77,6865.39,Mohammadpur,dummy@gmail.com
+INV10092,CUST1040,8.80E+12,Milk Powder 500g,7,4/21/2025,981.63,6871.41,Gulshan,dummy@gmail.com
+INV10093,CUST1074,8.80E+12,Tea Pack 250g,8,3/28/2025,1047.13,8377.04,Banani,dummy@gmail.com
+INV10094,CUST1087,8.80E+12,Tea Pack 250g,5,3/28/2025,1100.23,5501.15,Dhanmondi,dummy@gmail.com
+INV10095,CUST1049,8.80E+12,Milk Powder 500g,3,8/6/2024,638.04,1914.12,Uttara,dummy@gmail.com
+INV10096,CUST1051,8.80E+12,Sugar 1kg,8,6/7/2025,626.74,5013.92,Bashundhara,dummy@gmail.com
+INV10097,CUST1092,8.80E+12,Toothpaste 100ml,6,4/29/2025,968.04,5808.24,Tejgaon,dummy@gmail.com
+INV10098,CUST1026,8.80E+12,Shampoo 200ml,3,6/22/2024,797.46,2392.38,Motijheel,dummy@gmail.com
+INV10099,CUST1010,8.80E+12,Rice 5kg Bag,1,3/27/2024,857.26,857.26,Farmgate,dummy@gmail.com
+INV10100,CUST1076,8.80E+12,Tea Pack 250g,3,10/17/2024,965.16,2895.48,Mirpur,dummy@gmail.com
+INV10101,CUST1089,8.80E+12,Rice 5kg Bag,5,6/11/2025,1073.51,5367.55,Mohammadpur,dummy@gmail.com
+INV10102,CUST1081,8.80E+12,Soap 75g,3,10/10/2025,438.69,1316.07,Gulshan,dummy@gmail.com
+INV10103,CUST1032,8.80E+12,Rice 5kg Bag,1,9/26/2025,481.92,481.92,Banani,dummy@gmail.com
+INV10104,CUST1014,8.80E+12,Sugar 1kg,5,12/9/2024,158.08,790.4,Dhanmondi,dummy@gmail.com
+INV10105,CUST1090,8.80E+12,Biscuits 200g,7,4/5/2024,715.02,5005.14,Uttara,dummy@gmail.com
+INV10106,CUST1099,8.80E+12,Cooking Oil 1L,7,8/28/2024,91.33,639.31,Bashundhara,dummy@gmail.com
+INV10107,CUST1039,8.80E+12,Rice 5kg Bag,9,11/13/2024,585.44,5268.96,Tejgaon,dummy@gmail.com
+INV10108,CUST1088,8.80E+12,Cooking Oil 1L,3,8/18/2024,674.04,2022.12,Motijheel,dummy@gmail.com
+INV10109,CUST1077,8.80E+12,Salt 1kg,7,7/22/2024,379.52,2656.64,Farmgate,dummy@gmail.com
+INV10110,CUST1016,8.80E+12,Rice 5kg Bag,1,5/30/2024,729.46,729.46,Mirpur,dummy@gmail.com
+INV10111,CUST1073,8.80E+12,Rice 5kg Bag,4,1/26/2024,85.08,340.32,Mohammadpur,dummy@gmail.com
+INV10112,CUST1006,8.80E+12,Salt 1kg,4,2/17/2024,92.95,371.8,Gulshan,dummy@gmail.com
+INV10113,CUST1045,8.80E+12,Sugar 1kg,5,9/7/2024,995.99,4979.95,Banani,dummy@gmail.com
+INV10114,CUST1069,8.80E+12,Biscuits 200g,7,5/1/2025,464.22,3249.54,Dhanmondi,dummy@gmail.com
+INV10115,CUST1055,8.80E+12,Cooking Oil 1L,7,9/17/2025,196.12,1372.84,Uttara,dummy@gmail.com
+INV10116,CUST1085,8.80E+12,Cooking Oil 1L,4,3/15/2024,650.58,2602.32,Bashundhara,dummy@gmail.com
+INV10117,CUST1048,8.80E+12,Rice 5kg Bag,7,4/11/2025,935.49,6548.43,Tejgaon,dummy@gmail.com
+INV10118,CUST1009,8.80E+12,Rice 5kg Bag,3,2/28/2025,298.19,894.57,Motijheel,dummy@gmail.com
+INV10119,CUST1065,8.80E+12,Milk Powder 500g,6,10/6/2025,766.32,4597.92,Farmgate,dummy@gmail.com
+INV10120,CUST1083,8.80E+12,Cooking Oil 1L,2,8/12/2025,148.15,296.3,Mirpur,dummy@gmail.com
+INV10121,CUST1044,8.80E+12,Soap 75g,9,7/18/2024,109.43,984.87,Mohammadpur,dummy@gmail.com
+INV10122,CUST1002,8.80E+12,Shampoo 200ml,5,1/28/2025,661.06,3305.3,Gulshan,khalid35-877@diu.edu.bd
+INV10123,CUST1054,8.80E+12,Milk Powder 500g,6,5/21/2025,671.73,4030.38,Banani,dummy@gmail.com
+INV10124,CUST1063,8.80E+12,Soap 75g,4,2/13/2025,783.04,3132.16,Dhanmondi,dummy@gmail.com
+INV10125,CUST1014,8.80E+12,Shampoo 200ml,7,9/6/2024,885.01,6195.07,Uttara,dummy@gmail.com
+INV10126,CUST1056,8.80E+12,Toothpaste 100ml,9,5/31/2024,1172.23,10550.07,Bashundhara,dummy@gmail.com
+INV10127,CUST1047,8.80E+12,Milk Powder 500g,7,1/6/2024,643.75,4506.25,Tejgaon,dummy@gmail.com
+INV10128,CUST1082,8.80E+12,Sugar 1kg,1,4/19/2024,421.4,421.4,Motijheel,dummy@gmail.com
+INV10129,CUST1059,8.80E+12,Biscuits 200g,1,3/11/2025,964.46,964.46,Farmgate,dummy@gmail.com
+INV10130,CUST1091,8.80E+12,Biscuits 200g,9,8/12/2024,361.46,3253.14,Mirpur,dummy@gmail.com
+INV10131,CUST1020,8.80E+12,Rice 5kg Bag,9,6/29/2024,554.82,4993.38,Mohammadpur,dummy@gmail.com
+INV10132,CUST1056,8.80E+12,Milk Powder 500g,4,6/14/2025,140.22,560.88,Gulshan,dummy@gmail.com
+INV10133,CUST1023,8.80E+12,Cooking Oil 1L,9,4/20/2025,79.15,712.35,Banani,dummy@gmail.com
+INV10134,CUST1094,8.80E+12,Rice 5kg Bag,3,2/21/2024,1157.05,3471.15,Dhanmondi,dummy@gmail.com
+INV10135,CUST1067,8.80E+12,Cooking Oil 1L,7,7/24/2025,1011.38,7079.66,Uttara,dummy@gmail.com
+INV10136,CUST1084,8.80E+12,Cooking Oil 1L,6,9/12/2024,850.37,5102.22,Bashundhara,dummy@gmail.com
+INV10137,CUST1035,8.80E+12,Toothpaste 100ml,8,5/4/2024,520.3,4162.4,Tejgaon,dummy@gmail.com
+INV10138,CUST1079,8.80E+12,Soap 75g,9,4/12/2025,249.29,2243.61,Motijheel,dummy@gmail.com
+INV10139,CUST1069,8.80E+12,Rice 5kg Bag,5,5/16/2024,229.9,1149.5,Farmgate,dummy@gmail.com
+INV10140,CUST1100,8.80E+12,Shampoo 200ml,1,4/20/2025,337.78,337.78,Mirpur,dummy@gmail.com
+INV10141,CUST1062,8.80E+12,Shampoo 200ml,3,6/27/2025,681.61,2044.83,Mohammadpur,dummy@gmail.com
+INV10142,CUST1060,8.80E+12,Sugar 1kg,8,7/26/2025,871.79,6974.32,Gulshan,dummy@gmail.com
+INV10143,CUST1056,8.80E+12,Cooking Oil 1L,6,9/1/2025,809.23,4855.38,Banani,dummy@gmail.com
+INV10144,CUST1094,8.80E+12,Soap 75g,8,11/20/2024,371.92,2975.36,Dhanmondi,dummy@gmail.com
+INV10145,CUST1076,8.80E+12,Biscuits 200g,9,3/29/2025,1148.1,10332.9,Uttara,dummy@gmail.com
+INV10146,CUST1035,8.80E+12,Salt 1kg,4,9/19/2025,898.58,3594.32,Bashundhara,dummy@gmail.com
+INV10147,CUST1042,8.80E+12,Cooking Oil 1L,1,5/31/2025,687.51,687.51,Tejgaon,dummy@gmail.com
+INV10148,CUST1032,8.80E+12,Milk Powder 500g,1,3/12/2025,753.48,753.48,Motijheel,dummy@gmail.com
+INV10149,CUST1012,8.80E+12,Cooking Oil 1L,4,7/15/2025,532.54,2130.16,Farmgate,dummy@gmail.com
+INV10150,CUST1036,8.80E+12,Biscuits 200g,7,4/1/2025,334.89,2344.23,Mirpur,dummy@gmail.com
+INV10151,CUST1058,8.80E+12,Toothpaste 100ml,2,6/11/2024,459.37,918.74,Mohammadpur,dummy@gmail.com
+INV10152,CUST1032,8.80E+12,Salt 1kg,3,5/1/2025,921.52,2764.56,Gulshan,dummy@gmail.com
+INV10153,CUST1097,8.80E+12,Shampoo 200ml,1,4/5/2025,66.55,66.55,Banani,dummy@gmail.com
+INV10154,CUST1060,8.80E+12,Salt 1kg,5,9/22/2024,183.48,917.4,Dhanmondi,dummy@gmail.com
+INV10155,CUST1073,8.80E+12,Tea Pack 250g,1,9/10/2024,102.9,102.9,Uttara,dummy@gmail.com
+INV10156,CUST1079,8.80E+12,Toothpaste 100ml,8,10/14/2025,96.84,774.72,Bashundhara,dummy@gmail.com
+INV10157,CUST1086,8.80E+12,Shampoo 200ml,1,10/10/2024,1033.78,1033.78,Tejgaon,dummy@gmail.com
+INV10158,CUST1049,8.80E+12,Shampoo 200ml,1,6/17/2025,859.21,859.21,Motijheel,dummy@gmail.com
+INV10159,CUST1044,8.80E+12,Soap 75g,2,5/11/2025,595.3,1190.6,Farmgate,dummy@gmail.com
+INV10160,CUST1004,8.80E+12,Milk Powder 500g,2,10/3/2025,162.51,325.02,Mirpur,dummy@gmail.com
+INV10161,CUST1064,8.80E+12,Salt 1kg,6,9/1/2024,615.36,3692.16,Mohammadpur,dummy@gmail.com
+INV10162,CUST1042,8.80E+12,Cooking Oil 1L,7,10/8/2024,594.49,4161.43,Gulshan,dummy@gmail.com
+INV10163,CUST1024,8.80E+12,Shampoo 200ml,5,3/26/2025,249.18,1245.9,Banani,dummy@gmail.com
+INV10164,CUST1063,8.80E+12,Biscuits 200g,1,3/20/2024,548.93,548.93,Dhanmondi,dummy@gmail.com
+INV10165,CUST1028,8.80E+12,Rice 5kg Bag,1,10/19/2024,508.28,508.28,Uttara,dummy@gmail.com
+INV10166,CUST1046,8.80E+12,Milk Powder 500g,3,8/28/2024,758.23,2274.69,Bashundhara,dummy@gmail.com
+INV10167,CUST1034,8.80E+12,Salt 1kg,2,10/5/2024,780.36,1560.72,Tejgaon,dummy@gmail.com
+INV10168,CUST1044,8.80E+12,Rice 5kg Bag,5,12/9/2024,102.1,510.5,Motijheel,dummy@gmail.com
+INV10169,CUST1036,8.80E+12,Soap 75g,6,11/23/2024,480.8,2884.8,Farmgate,dummy@gmail.com
+INV10170,CUST1077,8.80E+12,Toothpaste 100ml,7,7/7/2025,769.74,5388.18,Mirpur,dummy@gmail.com
+INV10171,CUST1090,8.80E+12,Biscuits 200g,4,3/23/2024,628.61,2514.44,Mohammadpur,dummy@gmail.com
+INV10172,CUST1036,8.80E+12,Toothpaste 100ml,7,5/21/2024,1034.96,7244.72,Gulshan,dummy@gmail.com
+INV10173,CUST1072,8.80E+12,Sugar 1kg,8,6/3/2024,807.5,6460,Banani,dummy@gmail.com
+INV10174,CUST1002,8.80E+12,Tea Pack 250g,1,8/24/2024,237.37,237.37,Dhanmondi,dummy@gmail.com
+INV10175,CUST1067,8.80E+12,Cooking Oil 1L,6,1/27/2025,131.15,786.9,Uttara,dummy@gmail.com
+INV10176,CUST1025,8.80E+12,Toothpaste 100ml,8,6/5/2024,788.78,6310.24,Bashundhara,dummy@gmail.com
+INV10177,CUST1011,8.80E+12,Biscuits 200g,5,8/7/2024,80.49,402.45,Tejgaon,dummy@gmail.com
+INV10178,CUST1031,8.80E+12,Milk Powder 500g,4,3/6/2024,723.64,2894.56,Motijheel,dummy@gmail.com
+INV10179,CUST1093,8.80E+12,Toothpaste 100ml,2,2/28/2025,1131.26,2262.52,Farmgate,dummy@gmail.com
+INV10180,CUST1053,8.80E+12,Rice 5kg Bag,6,2/21/2025,711.8,4270.8,Mirpur,dummy@gmail.com
+INV10181,CUST1063,8.80E+12,Soap 75g,6,12/4/2024,496.4,2978.4,Mohammadpur,dummy@gmail.com
+INV10182,CUST1072,8.80E+12,Cooking Oil 1L,1,7/9/2025,789.78,789.78,Gulshan,dummy@gmail.com
+INV10183,CUST1098,8.80E+12,Sugar 1kg,9,4/22/2025,576.99,5192.91,Banani,dummy@gmail.com
+INV10184,CUST1031,8.80E+12,Rice 5kg Bag,6,3/1/2025,677.46,4064.76,Dhanmondi,dummy@gmail.com
+INV10185,CUST1089,8.80E+12,Soap 75g,3,3/4/2024,1132.68,3398.04,Uttara,dummy@gmail.com
+INV10186,CUST1061,8.80E+12,Biscuits 200g,4,7/30/2024,494.02,1976.08,Bashundhara,dummy@gmail.com
+INV10187,CUST1083,8.80E+12,Biscuits 200g,4,3/6/2025,1155.37,4621.48,Tejgaon,dummy@gmail.com
+INV10188,CUST1092,8.80E+12,Rice 5kg Bag,3,2/2/2025,1091.15,3273.45,Motijheel,dummy@gmail.com
+INV10189,CUST1063,8.80E+12,Soap 75g,3,8/21/2025,275.16,825.48,Farmgate,dummy@gmail.com
+INV10190,CUST1058,8.80E+12,Milk Powder 500g,3,1/21/2024,129.77,389.31,Mirpur,dummy@gmail.com
+INV10191,CUST1003,8.80E+12,Milk Powder 500g,4,8/12/2025,165.89,663.56,Mohammadpur,dummy@gmail.com
+INV10192,CUST1012,8.80E+12,Soap 75g,7,1/24/2025,70.96,496.72,Gulshan,dummy@gmail.com
+INV10193,CUST1038,8.80E+12,Cooking Oil 1L,4,5/3/2025,158.61,634.44,Banani,dummy@gmail.com
+INV10194,CUST1029,8.80E+12,Salt 1kg,9,1/7/2024,835.46,7519.14,Dhanmondi,dummy@gmail.com
+INV10195,CUST1052,8.80E+12,Biscuits 200g,1,12/26/2024,131.87,131.87,Uttara,dummy@gmail.com
+INV10196,CUST1089,8.80E+12,Tea Pack 250g,8,11/1/2024,416.82,3334.56,Bashundhara,dummy@gmail.com
+INV10197,CUST1032,8.80E+12,Biscuits 200g,7,2/3/2025,1021.61,7151.27,Tejgaon,dummy@gmail.com
+INV10198,CUST1040,8.80E+12,Shampoo 200ml,2,3/5/2025,76.76,153.52,Motijheel,dummy@gmail.com
+INV10199,CUST1085,8.80E+12,Toothpaste 100ml,8,7/5/2025,986.64,7893.12,Farmgate,dummy@gmail.com
