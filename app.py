@@ -201,9 +201,8 @@ def send_campaign():
         for customer in customers:
             if customer.get('Email') and customer['Email'] != 'N/A':
                 try:
-                    # In production, uncomment and configure:
-                    # send_email(customer['Email'], offer['subject'], 
-                    #           format_email_body(customer['CustomerID'], offer['message']))
+                    send_email(customer['Email'], offer['subject'], 
+                              format_email_body(customer['CustomerID'], offer['message']))
                     sent_count += 1
                 except Exception as e:
                     errors.append(f"{customer['CustomerID']}: {str(e)}")
@@ -294,24 +293,22 @@ def download_segment():
         return jsonify({'error': str(e)}), 500
 
 def send_email(recipient_email, subject, body):
-    """Send email (configure with your SMTP settings)"""
-    # Uncomment and configure for production use
-    # sender_email = "your-email@gmail.com"
-    # sender_password = "your-app-password"
-    # SMTP_SERVER = "smtp.gmail.com"
-    # SMTP_PORT = 587
-    # 
-    # message = MIMEMultipart()
-    # message["From"] = sender_email
-    # message["To"] = recipient_email
-    # message["Subject"] = subject
-    # message.attach(MIMEText(body, "plain"))
-    # 
-    # with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
-    #     server.starttls()
-    #     server.login(sender_email, sender_password)
-    #     server.send_message(message)
-    pass
+    """Send email using Gmail SMTP"""
+    sender_email = "skroushankhalid.17@gmail.com"
+    sender_password = "gtky ldls rujz bomj".replace(" ", "")  # App password without spaces
+    SMTP_SERVER = "smtp.gmail.com"
+    SMTP_PORT = 587
+    
+    message = MIMEMultipart()
+    message["From"] = sender_email
+    message["To"] = recipient_email
+    message["Subject"] = subject
+    message.attach(MIMEText(body, "plain"))
+    
+    with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
+        server.starttls()
+        server.login(sender_email, sender_password)
+        server.send_message(message)
 
 def format_email_body(customer_id, message):
     """Format email body with customer personalization"""

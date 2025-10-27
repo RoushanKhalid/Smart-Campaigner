@@ -77,34 +77,39 @@
             </div>
 
             <div class="table-section">
-                <h3>Detailed Customer Data</h3>
-                <div class="table-controls">
-                    <input type="text" id="searchInput" placeholder="Search customers...">
-                    <select id="filterSelect">
-                        <option value="all">All Segments</option>
-                        <option value="Platinum">Platinum</option>
-                        <option value="Gold">Gold</option>
-                        <option value="Silver">Silver</option>
-                        <option value="Bronze">Bronze</option>
-                    </select>
+                <div class="table-header" onclick="toggleTable()">
+                    <h3>📊 Detailed Customer Data</h3>
+                    <span class="collapse-icon" id="collapseIcon">▼</span>
                 </div>
-                <div class="table-container">
-                    <table id="dataTable">
-                        <thead>
-                            <tr>
-                                <th>Customer ID</th>
-                                <th>Location</th>
-                                <th>Phone</th>
-                                <th>Email</th>
-                                <th>Group</th>
-                                <th>Recency</th>
-                                <th>Frequency</th>
-                                <th>Monetary</th>
-                            </tr>
-                        </thead>
-                        <tbody id="tableBody">
-                        </tbody>
-                    </table>
+                <div class="table-content" id="tableContent">
+                    <div class="table-controls">
+                        <input type="text" id="searchInput" placeholder="Search customers...">
+                        <select id="filterSelect">
+                            <option value="all">All Segments</option>
+                            <option value="Platinum">Platinum</option>
+                            <option value="Gold">Gold</option>
+                            <option value="Silver">Silver</option>
+                            <option value="Bronze">Bronze</option>
+                        </select>
+                    </div>
+                    <div class="table-container">
+                        <table id="dataTable">
+                            <thead>
+                                <tr>
+                                    <th>Customer ID</th>
+                                    <th>Location</th>
+                                    <th>Phone</th>
+                                    <th>Email</th>
+                                    <th>Group</th>
+                                    <th>Recency</th>
+                                    <th>Frequency</th>
+                                    <th>Monetary</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableBody">
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
 

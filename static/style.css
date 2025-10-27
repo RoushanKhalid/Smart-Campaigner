@@ -128,39 +128,39 @@ header h1 {
 }
 
 .results {
-    padding: 25px 40px;
+    padding: 20px 40px;
 }
 
 .results h2 {
     color: #333;
-    margin-bottom: 20px;
-    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
 }
 
 .summary-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin-bottom: 40px;
+    gap: 15px;
+    margin-bottom: 25px;
 }
 
 .card {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 20px;
-    border-radius: 15px;
+    padding: 15px 20px;
+    border-radius: 12px;
     display: flex;
     align-items: center;
-    gap: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    gap: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .card-icon {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .card-content h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 5px;
 }
 
@@ -169,13 +169,77 @@ header h1 {
 }
 
 .chart-section, .segments, .table-section, .download-section, .campaign-section {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-.chart-section h3, .segments h3, .table-section h3, .download-section h3, .campaign-section h3 {
+.chart-section h3, .segments h3, .download-section h3, .campaign-section h3 {
     color: #333;
-    margin-bottom: 15px;
-    font-size: 1.3rem;
+    margin-bottom: 10px;
+    font-size: 1.15rem;
+}
+
+#segmentChart {
+    max-height: 300px;
+}
+
+/* Table Section with Collapse */
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 0;
+}
+
+.table-header:hover {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.table-header h3 {
+    margin: 0;
+    color: white;
+}
+
+.collapse-icon {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.table-section.collapsed .collapse-icon {
+    transform: rotate(-90deg);
+}
+
+.table-content {
+    max-height: 600px;
+    overflow-y: auto;
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.table-section.collapsed .table-content {
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+}
+
+.table-section {
+    background: transparent !important;
+    padding: 0 !important;
 }
 
 /* Campaign Section */
@@ -187,8 +251,8 @@ header h1 {
 
 .campaign-card {
     background: white;
-    padding: 25px;
-    border-radius: 15px;
+    padding: 18px;
+    border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-left: 5px solid #667eea;
 }
@@ -338,8 +402,8 @@ header h1 {
 }
 
 .segment-card {
-    padding: 25px;
-    border-radius: 15px;
+    padding: 18px;
+    border-radius: 12px;
     color: white;
     transition: transform 0.3s ease;
 }
@@ -365,8 +429,8 @@ header h1 {
 }
 
 .segment-card h4 {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
 }
 
 .segment-stats {

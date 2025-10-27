@@ -351,6 +351,11 @@ function filterTable() {
     });
 }
 
+function toggleTable() {
+    const tableSection = document.querySelector('.table-section');
+    tableSection.classList.toggle('collapsed');
+}
+
 async function downloadSegment(segment) {
     if (!analysisData) {
         alert('Please analyze data first');
