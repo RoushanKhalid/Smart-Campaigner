@@ -2,6 +2,9 @@
 
 A comprehensive web application for customer segmentation using RFM (Recency, Frequency, Monetary) analysis with K-Means clustering.
 
+
+[Smart Campaigner.pdf](https://github.com/user-attachments/files/23518659/Smart.Campaigner.pdf)
+
 ## Features
 
 - 📊 **RFM Analysis**: Automatically calculates Recency, Frequency, and Monetary values from transaction data
